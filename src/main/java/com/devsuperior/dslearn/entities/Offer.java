@@ -88,6 +88,10 @@ public class Offer {
 	public void setCourse(Course course) {
 		this.course = course;
 	}
+	
+	public List<Resource> getResources() {
+		return resources;
+	}
 
 	@Override
 	public int hashCode() {

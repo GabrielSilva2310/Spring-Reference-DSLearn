@@ -97,6 +97,10 @@ public class Enrollment {
 	public void setOnlyUpdate(boolean onlyUpdate) {
 		this.onlyUpdate = onlyUpdate;
 	}
+	
+	public List<Deliver> getDeliveries() {
+		return deliveries;
+	}
 
 	@Override
 	public int hashCode() {
